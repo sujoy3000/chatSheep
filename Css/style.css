@@ -1,0 +1,99 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+body{
+    height: 100vh;
+    background-image: url('img/background.jpg') ;
+}
+.container{
+    height: 55vh;
+    max-width: 955px;
+    margin: auto;
+    border: 3px solid #805d1d;
+    border-radius: 10px;
+    color: white;
+    overflow-y: auto;
+    padding: 24px;
+
+}
+
+.message{
+    background-color: white;
+    color: black;
+    width: 23%;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+.left{
+    float: left;
+    clear:both;
+}
+.right{
+    float: right;
+    clear:both;
+}
+
+.middle{
+
+    display: flex;
+    width: auto;
+    justify-content: center;
+    color: rgb(250, 165, 165);
+    clear: both;
+}
+
+.msg{
+
+    background-color: white;
+    color: black;
+    width: 23%;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.join{
+    color: rgb(36, 213, 107);
+}
+
+.leave{
+    color: red;
+}
+
+#send-container{
+    padding: 5px;
+    max-width: 65%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+ #messageInp{
+    flex: 10;
+    border: 2px solid #805d1d;
+    border-radius: 10px;
+    height: 34px;
+    font-size: 20px;
+    font-family: sans-serif;
+    outline: none;
+    background-color: #b9b7b8;
+}
+#btn{
+    flex: 2;
+    cursor: pointer;
+    border: 2px solid #805d1d;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    background-color: #b9b7b8;
+
+} 

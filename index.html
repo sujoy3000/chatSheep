@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatSheep - Realtime Chat App</title>
+
+    <!-- To connect client with the socket.io server , we are including this javascript file -->
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+
+    <!-- If we do defer then the script will download in the background and whenever the dom will be loaded , the script will run -->
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style=" background-image: url('img/background.jpg'); ">
+    <nav>
+        <img class="logo" src="img/logo.jpg" alt="">
+        <h1 style="display: flex; justify-content: center;">Welcome to ChatSheep!</h1>
+    </nav>
+    <div class="container">
+
+    </div>
+    
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            <button type="submit" id="btn">Send</button>
+        </form>
+    </div>
+</body>
+</html>
